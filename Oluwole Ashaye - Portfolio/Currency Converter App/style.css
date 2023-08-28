@@ -1,0 +1,96 @@
+* {
+box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 18px;
+    text-align: center;
+}
+
+.container img {
+    width: 100px;
+    margin-left: 65px;
+}
+
+.currency {
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.currency select {
+    border: none;
+    background-color: black;
+    color: #fff;
+    font-weight: 600;
+    width: 60px;
+    height: 23px;
+    margin-left: 5px;
+    border-radius: 5px 0 0 5px;
+}
+
+.currency select::-webkit-scrollbar {
+    width: 8px;
+}
+
+.currency select::-webkit-scrollbar-track {
+background-color: #fff;
+}
+
+.currency select::-webkit-scrollbar-thumb {
+background-color: #000;
+border-radius: 8px;
+border-right: 2px solid #000;
+}
+
+
+.currency input {
+    border: 2px solid black;
+    margin-right: 5px;
+    border-radius: 0 5px 5px 0;
+    height: 23px;
+    text-align: right;
+}
+
+.exchange-rate-container i{
+    font-size: 16px;
+    padding: 2px 12px;
+    cursor: pointer;
+}
+
+.exchange-rate-container button{
+    margin-left: 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.rate {
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 5px;
+}
+
+select:focus,
+input:focus,
+button:focus {
+    outline: none;
+}
